@@ -10,8 +10,47 @@
 header
 {
     background-color: #1f2937;
-    height: 200px;
+    height: 400px;
     width: auto;
     color: #f9faf8;
+    padding-top: 20px;
 }
 
+/* header first div cona */
+header .cona
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+header ul
+{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+header .header-logo
+{
+    font-size: 24px;
+    color: #f9f8fa;
+    font-weight: bold;
+}
+
+/* header second div conb */
+header .conb
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 98px;
+}
+
+
+/* content section */
+/* Footer section */
