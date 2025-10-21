@@ -4,53 +4,128 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 /* Header section */
 header
 {
-    background-color: #1f2937;
+    width: 100%;
     height: 400px;
-    width: auto;
-    color: #f9faf8;
-    padding-top: 20px;
 }
 
-/* header first div cona */
+.header-container
+{
+    background-color: #1f2937;
+    width: auto;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    gap: 60px;
+    overflow: hidden;
+}
+/* first section of header content */
+
+.cona ul 
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
 header .cona
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 150px;
+    justify-content: space-between;
+
 }
 
-header ul
+.cona p
 {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    color: #e5e7eb;
-    font-size: 18px;
-
+    width: 407px;
 }
 
-header .header-logo
-{
-    font-size: 24px;
-    color: #f9f8fa;
-    font-weight: bold;
-}
+/* second content of header section */
 
-/* header second div conb */
 header .conb
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 98px;
+    height: 300px;
+    justify-content: space-between;
 }
 
+.conb-content
+{
+    width: 407px;
+}
 
+header .image-box {
+  height: 230px;
+  width: 407px;
+  background-color: #9da2ae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: #555;
+  text-align: center;
+  overflow: hidden;
+}
+
+header .image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+header .image-box.no-img::before {
+  content: attr(data-alt);
+}
+
+/* header color and fonts decorations */
+
+.header-logo
+{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero-text
+{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-sub-text, a
+{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header button
+{
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    size: 18px;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+    border: none;
+}
 /* content section */
 /* Footer section */

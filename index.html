@@ -8,26 +8,33 @@
 </head>
 <body>
     <header>
-       <div class="cona">
-        <p class="header-logo">Header Logo</p>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-       </div>
-       
-       <div class="conb">
-            <div class="conbcontent">
-                <p class="hero-text">This website is awesome</p>
-                <p class="subtext">
-                    This website has some subtext that goes here
-                    under the main title. It's a smaller font
-                    and the color is lower contrast.
-                </p>
+        <div class="header-container">
+            <div class="cona">
+                <p class="header-logo">Header Logo</p>
+                
+                <ul >
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
             </div>
-            <img src="" alt="this is a placeholder for image" class="conbimg">
-       </div>
+
+            <div class="conb">
+                <div class="conb-content">
+                    <p class="hero-text">This website is awesome</p>
+                    <p class="hero-sub-text">
+                    This website has some subtext that goes
+                    here under the main title. It's a smaller font and the color is
+                    lower contrast
+                    </p>
+                    <button>Sign up</button>
+                </div>
+                
+                <div class="image-box" data-alt="This is an placeholder for an image">
+                    <img src="missing-image.jpg" alt="This is an placeholder for an image" onerror="this.style.display='none'; this.parentElement.classList.add('no-img');">
+                </div>
+            </div>
+        </div>
     </header>
 
     <footer>
