@@ -26,6 +26,7 @@ header
     padding-top: 20px;
     gap: 60px;
     overflow: hidden;
+  
 }
 /* first section of header content */
 
@@ -116,16 +117,23 @@ header .image-box.no-img::before {
     color: #e5e7eb;
 }
 
-header button
-{
+header button {
     margin-top: 10px;
     background-color: #3882f6;
     color: #f9faf8;
-    size: 18px;
     border-radius: 7px;
     height: 30px;
     width: 70px;
     border: none;
+    cursor: pointer;          
+    transition: all 0.1s ease;
 }
+
+
+header button:active {
+    transform: translateY(2px); 
+    box-shadow: 0 2px 0 #2c64c3;
+}
+
 /* content section */
 /* Footer section */
