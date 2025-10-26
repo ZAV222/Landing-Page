@@ -12,10 +12,10 @@ header
     background-color: #1f2937;
     color: #f9f8fa;
     width: 100%;
-    height: 350px;
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 40px;
     gap: 30px;
     overflow: scroll;
 }
@@ -102,7 +102,6 @@ a
 /* section a */
 main .main-sectiona
 {
-    height: 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,6 +109,7 @@ main .main-sectiona
     align-items: center;
     gap: 30px;
     padding-top: 80px;
+    
 }
 
 .secacontent
@@ -146,14 +146,38 @@ main .main-sectiona
 /* section b */
 main .main-sectionb
 {
-    height: 200px;
+    display: flex;
     width: 100%;
+    background-color: #e5e7eb;
+    justify-content: center;
+    margin-top: 100px;
+}
+.secbcontent
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 800px;
+    justify-content: center;
+    align-items: end;
+}
+.secbtext
+{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.quote-credit
+{
+    font-weight: bold;
 }
 
 /* section c */
 main .main-sectionc
 {
-    height: 150px;
+    
     width: 100%;
 }
 
