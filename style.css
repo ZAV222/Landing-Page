@@ -177,17 +177,46 @@ main .main-sectionb
 /* section c */
 main .main-sectionc
 {
-    
+    margin-top: 100px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
-.secacontent p
+.sec-c-content
 {
-    color: #505152;
-    font-size: 18px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 120px;
+    border: 7px solid #3882f6;
+    border-radius: 10px;
 }
 
 
+.sec-c-p-one
+{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sec-c-p-two
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.sec-c-button
+{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 7px;
+    border: solid;
+    border-color: #f9faf8;
+    padding: 7px;
+}
 
 /* footer section */
 footer
